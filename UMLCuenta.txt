@@ -1,0 +1,27 @@
+@startuml
+class cuenta{
+  -int id
+  -BigDecimal saldo
+  -BigDecimal tasaInteresAnual
+  -LocalDateTime fechaCreacion
+  .. constructores ..
+  +cuenta()
+  +cuenta(int id, BigDecimal saldo)
+  .. getters y setters ..
+  +BigDecimal getSaldo()
+  +void setSaldo(BigDecimal saldo)
+  +BigDecimal getTasaInteresAnual()
+  +void setTasaInteresAnual(BigDecimal tasaInteresAnual)
+  ..
+  +int getId()
+  +LocalDateTime getFechaCreacion()
+  ..
+  +BigDecimal getTasaInteresMensual()
+  +BigDecimal getInteresMensual()
+  .. otros metodos ..
+  +void retirar(BigDecimal cantidad)
+  +void depositar(BigDecimal cantidad)
+  +static Cuenta crearCuentaSimple(int id)
+  +String toString()
+}
+@enduml
