@@ -1,0 +1,25 @@
+@startuml
+class Ventilador {
+ -int velocidad
+ -boolean encendido
+ -double radio
+ -String color
+ .. constantes ..
+ +static final int LENTO = 1
+ +static final int MEDIO = 2
+ +static final int RAPIDO = 3
+ .. constructores ..
+ +Ventilador()
+ .. getters y setters ..
+ +int getVelocidad()
+ +void setVelocidad(int velocidad)
+ +boolean isEncendido()
+ +void setEncendido(boolean encendido)
+ +double getRadio()
+ +void setRadio(double radio)
+ +String getColor()
+ +void setColor(String color)
+ .. otros métodos ..
+ +String toString()
+}
+@enduml

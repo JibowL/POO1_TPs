@@ -16,5 +16,20 @@ public class Main {
         Cuenta cuenta2 = Cuenta.crearCuentaSimple(2234);
         System.out.println(cuenta2);
 
+        Ventilador liliana = new Ventilador();
+        liliana.setVelocidad(Ventilador.RAPIDO);
+        liliana.setRadio(10);
+        liliana.setColor("amarillo");
+        liliana.encender();
+
+        Ventilador brisa = new Ventilador();
+        brisa.setVelocidad(Ventilador.MEDIO);
+        brisa.setRadio(5);
+        brisa.setColor("azul");
+        brisa.apagar();
+
+        System.out.println("Liliana:\n" + liliana);
+        System.out.println("Brisa:\n" + brisa);
+        
     }
 }
