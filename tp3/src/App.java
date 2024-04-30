@@ -1,8 +1,8 @@
-package tp3;
-
 import java.math.BigDecimal;
+import models.Cuenta;
+import models.Ventilador;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         //se crea una cuenta con nro. de cuenta 1122 y tasa de interes anual 4.5%
         Cuenta cuenta1 = new Cuenta(1122, BigDecimal.valueOf(20000));

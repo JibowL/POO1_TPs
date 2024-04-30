@@ -1,4 +1,4 @@
-package tp3;
+package models;
 
 public class Ventilador {
     //Constantes de las velocidades del ventilador
