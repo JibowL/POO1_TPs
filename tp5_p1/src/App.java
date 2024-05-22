@@ -36,7 +36,7 @@ public class App {
 
         pila1.apilar(100);
 
-        System.out.println("Cantidad de elementos: " + pila1.cantidadElementos());
+        System.out.println("Cantidad de elementos: " + pila1.cantidadElementos() + "\n");
 
         pila1.desapilar();
     }
