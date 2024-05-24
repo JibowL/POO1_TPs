@@ -9,8 +9,8 @@ public class Empleado {
     private LocalDate fechaDeIngreso = LocalDate.now();
 
     public Empleado(){
-        this.apellidos = "N/A";
-        this.nombres = "N/A";
+        this.apellidos = "Sin Nombre";
+        this.nombres = "";
         this.documento = 0;
         this.fechaDeIngreso = null;
 

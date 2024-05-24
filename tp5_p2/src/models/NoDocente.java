@@ -17,6 +17,10 @@ public class NoDocente extends Empleado {
         return this.categoria;
     }
 
+    public void setCategoria(Categoria categoria){
+        this.categoria = categoria;
+    }
+
     @Override
     public String toString(){
         return "\n+\tNo Docente: " + this.getApellidos() + " " + this.getNombres() + 
