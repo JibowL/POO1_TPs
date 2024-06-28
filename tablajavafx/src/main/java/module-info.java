@@ -9,6 +9,7 @@ module edu.unam.tablajavafx {
     requires eu.hansolo.tilesfx;
 
     opens edu.unam.tablajavafx to javafx.fxml;
+    opens edu.unam.tablajavafx.Models to javafx.base;
     exports edu.unam.tablajavafx;
     exports edu.unam.tablajavafx.Controllers;
     opens edu.unam.tablajavafx.Controllers to javafx.fxml;
